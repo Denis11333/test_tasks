@@ -1,0 +1,24 @@
+.info__commands__row{
+    padding-left: 5%;
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.all__commands__block{
+    display: flex;
+}
+
+.info__commands__row__first p, .info__commands__row p{
+    color: #cfcecc;
+    padding-top: 5%;
+}
+
+.info__commands__row__first h4, .info__commands__row h4{
+    padding-top: 2%;
+    font-weight: bold;
+}
+
+.info__commands__row__first h2:not(:first-child), .info__commands__row h2:not(:first-child){
+   padding-top: 25px;
+}
+
