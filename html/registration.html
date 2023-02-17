@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/registration.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+    <!--  content  -->
+
+    <div class="content">
+        <div class="head">
+
+            <h1 style="width: 100%;">Мій особистий блог</h1>
+
+            <h4>Грищенко Денис</h4>
+
+            <div class="auth">
+                <a href="login.html">Вхід</a>
+                <a href="registration.html">Регестрація</a>
+            </div>
+
+        </div>
+
+        <hr style="background-color: red;height: 10px;padding: 0 0 0 0; margin: 0 0 0 0;">
+
+        <div class="login">
+            <h1>Регістрація користувача</h1>
+
+            <form action="index.html">
+
+                <div class="for__input__space">
+
+                </div>
+
+                <div class="desc__and__input">
+                    <h3>Прізвище</h3>
+                    <label>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="desc__and__input">
+                    <h3>Ім'я</h3>
+                    <label>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="desc__and__input">
+                    <h3>Логін</h3>
+                    <label>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <datalist id="groups">
+                    <option value="201">
+                    <option value="202">
+                    <option value="203">
+                </datalist>
+
+                <div class="desc__and__input">
+                    <h3>Навчальна група</h3>
+                    <label>
+                        <input type="text" list="groups">
+                    </label>
+                </div>
+
+                <div class="desc__and__input">
+                    <h3>Пароль</h3>
+                    <label>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="desc__and__input">
+                    <h3>Підтвердження паролюі</h3>
+                    <label>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="input__submit">
+                    <input type="submit" value="Зареєструватися">
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
