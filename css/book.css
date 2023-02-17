@@ -1,0 +1,45 @@
+.book{
+    border: solid 3px gray;
+    margin: 20px 20px;
+}
+.section_book_info{
+    display: flex;
+}
+
+hr{
+   border-color: cornflowerblue;
+    margin-bottom: 10px;
+    width: 96%;
+    margin-left: 1%;
+}
+.description__book{
+    margin-left: 1%;
+    margin-bottom: 2%;
+    width: 96%;
+}
+.book__contents{
+    margin-left: 5%;
+    text-decoration: underline;
+
+}
+.book__contents__section{
+    margin-left: 8%;
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+.section_book_info a{
+    font-style: italic;
+}
+
+.section_book_text__italic{
+    font-style: italic;
+}
+
+.details a{
+    color: green;
+}
+
+.details p{
+    margin: 0 0 20px;
+}
